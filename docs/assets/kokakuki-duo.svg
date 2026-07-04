@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">kokakuki.ai crab and lobster VTuber duo artist photo</title>
+  <desc id="desc">A cinematic illustration of a crab and lobster AI VTuber couple looking at each other warmly on a neon stage.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#1b4ed8"/>
+      <stop offset="0.45" stop-color="#25105f"/>
+      <stop offset="1" stop-color="#050816"/>
+    </radialGradient>
+    <linearGradient id="crabShell" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff8a5b"/>
+      <stop offset="1" stop-color="#d91f3d"/>
+    </linearGradient>
+    <linearGradient id="lobsterShell" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffb15f"/>
+      <stop offset="1" stop-color="#c5162e"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.45" filter="url(#glow)">
+    <circle cx="440" cy="220" r="170" fill="#ff4fa3"/>
+    <circle cx="1160" cy="230" r="190" fill="#37e4ff"/>
+    <path d="M120 710 C420 610 640 690 800 610 C980 520 1200 650 1480 565" fill="none" stroke="#76f7ff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.12">
+    <path d="M0 760 H1600"/><path d="M0 810 H1600"/><path d="M0 860 H1600"/>
+    <path d="M170 900 L690 350"/><path d="M1430 900 L910 350"/>
+  </g>
+  <g transform="translate(780 535)" filter="url(#softShadow)">
+    <g transform="translate(-270 0) rotate(-7)">
+      <ellipse cx="0" cy="0" rx="185" ry="148" fill="url(#crabShell)"/>
+      <path d="M-115 -40 C-75 -92 70 -98 118 -35" fill="none" stroke="#ffd0b8" stroke-width="22" stroke-linecap="round" opacity="0.75"/>
+      <circle cx="-70" cy="-145" r="34" fill="#fff4e6"/><circle cx="64" cy="-145" r="34" fill="#fff4e6"/>
+      <circle cx="-58" cy="-140" r="12" fill="#111827"/><circle cx="76" cy="-139" r="12" fill="#111827"/>
+      <path d="M-58 -92 Q0 -54 58 -92" fill="none" stroke="#42111c" stroke-width="12" stroke-linecap="round"/>
+      <path d="M-170 -25 C-280 -120 -350 -90 -370 -15 C-326 2 -296 22 -282 70 C-236 68 -202 40 -170 -25Z" fill="#e93d47"/>
+      <path d="M170 -25 C260 -125 330 -108 365 -38 C326 -10 303 18 297 66 C250 76 206 52 170 -25Z" fill="#ff714f"/>
+      <g stroke="#ffb19a" stroke-width="22" stroke-linecap="round">
+        <path d="M-140 70 L-245 160"/><path d="M-70 105 L-145 215"/><path d="M55 108 L105 218"/><path d="M128 75 L230 168"/>
+      </g>
+      <path d="M120 -15 C165 -65 210 -86 260 -94" stroke="#ffb19a" stroke-width="28" stroke-linecap="round" fill="none"/>
+    </g>
+    <g transform="translate(260 0) rotate(7)">
+      <ellipse cx="0" cy="0" rx="150" ry="210" fill="url(#lobsterShell)"/>
+      <path d="M-72 -130 C-32 -168 48 -168 84 -124" fill="none" stroke="#ffd4aa" stroke-width="20" stroke-linecap="round" opacity="0.75"/>
+      <circle cx="-52" cy="-188" r="32" fill="#fff4e6"/><circle cx="58" cy="-188" r="32" fill="#fff4e6"/>
+      <circle cx="-43" cy="-184" r="11" fill="#111827"/><circle cx="48" cy="-184" r="11" fill="#111827"/>
+      <path d="M-46 -112 Q0 -78 50 -112" fill="none" stroke="#42111c" stroke-width="11" stroke-linecap="round"/>
+      <path d="M-118 112 C-76 172 -38 196 0 222 C38 196 76 172 118 112" fill="#9f1028" opacity="0.95"/>
+      <g fill="none" stroke="#ffd3ad" stroke-width="10" opacity="0.45"><path d="M-110 -54 H110"/><path d="M-120 5 H120"/><path d="M-100 64 H100"/></g>
+      <path d="M-128 -42 C-245 -110 -320 -70 -346 10 C-302 8 -275 32 -262 78 C-212 74 -158 38 -128 -42Z" fill="#c5162e"/>
+      <path d="M128 -42 C222 -108 300 -94 340 -25 C300 -3 278 28 274 74 C226 82 166 42 128 -42Z" fill="#f05b3d"/>
+      <g stroke="#ffb15f" stroke-width="18" stroke-linecap="round"><path d="M-104 62 L-205 148"/><path d="M104 62 L205 148"/></g>
+      <path d="M-115 -20 C-160 -60 -205 -82 -260 -90" stroke="#ffb15f" stroke-width="26" stroke-linecap="round" fill="none"/>
+    </g>
+    <path d="M-20 -70 C40 -138 112 -132 170 -62" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <text x="800" y="105" text-anchor="middle" fill="#f8fbff" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" letter-spacing="-3">kokakuki.ai</text>
+  <text x="800" y="158" text-anchor="middle" fill="#bdefff" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="8">AI VTUBER DUO</text>
+</svg>
